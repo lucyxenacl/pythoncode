@@ -1,5 +1,5 @@
 # Programmed by Marisa Nickerson for Bioinformatics
-
+# DNA sequence
 DNA = 'ACTGATCGATTACGTATAGTATTGCTATCATACATATATATCGATGCGTTCAT'
 len(DNA)
 print "The legnth is %s" % len(DNA)
