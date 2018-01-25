@@ -1,6 +1,7 @@
 # Programmed by Marisa Nickerson for Bioinformatics
 # DNA sequence
-DNA = 'ACTGATCGATTACGTATAGTATTGCTATCATACATATATATCGATGCGTTCAT'
+print "Please enter DNA sequence"
+DNA = raw_input()
 len(DNA)
 print "The legnth is %s" % len(DNA)
 DNA.count('A')
