@@ -1,6 +1,9 @@
 #Programmed by Marisa Nickerson for Bioinformatics
 
-print "Please enter DNA sequence"
-DNA = raw_input()
-print "The length of the first sequence is %s" % len(DNA[0:22])
-print "The Length of the second sequence is %s" % len(DNA[22:])
+DNA = "ACTGATCGATTACGTATAGTAGAATTCTATCATACATATATATCGATGCGTTCAT"
+ecoR1 = "GAATTC"
+cut = DNA.find(ecoR1) + 1
+fragment1 = cut
+fragment2 = len(DNA)-cut
+print "Length of sequence with cut is %s" % fragment1
+print "Length is sequence without cut is %s" % fragment2
