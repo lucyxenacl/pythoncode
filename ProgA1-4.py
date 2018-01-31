@@ -1,4 +1,6 @@
 #Programmed by Marisa Nickerson for Bioinformatics
+#DNA sequence is taken apart to view the two exon and one intron strands
+
 DNA = "ATCGATCGATCGATCGACTGACTAGTCATAGCTATGCATGTAGCTACTCGATCGATCGATCGATCGATCGATCGATCGATCGATCATGCTATCATCGATCGATATCGATGCATCGACTACTAT"
 exon1 = DNA[0:64].upper()
 exon2 = DNA[91:].upper()

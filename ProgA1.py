@@ -1,5 +1,7 @@
 # Programmed by Marisa Nickerson for Bioinformatics
-# DNA sequence
+# DNA sequence "ACTGATCGATTACGTATAGTATTTGCTATCATACATATATATCGATGCGTTCAT"
+#AT content is calculated by (number of As + Ts)/(Length of the sequence)
+
 print "Please enter DNA sequence"
 DNA = raw_input()
 DNA = DNA.upper()
