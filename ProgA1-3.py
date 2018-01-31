@@ -1,7 +1,7 @@
 #Programmed by Marisa Nickerson for Bioinformatics
 #DNA sequence is "ACTGATCGATTACGTATAGTAGAATTCTATCATACATATATATCGATGCGTTCAT"
 #question number 3
-#DNA sequence entered will then be convereted into its compliment sequence
+#DNA sequence entered will then be converted into its compliment sequence
 
 print "Please Enter DNA sequence"
 DNA = raw_input()
