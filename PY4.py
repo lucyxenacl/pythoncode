@@ -1,0 +1,3 @@
+import BioinformaticsA
+ans = BioinformaticsA.atContent("ACTGATCGATTACGTATAGTATTTGCTATCATACATATATATCGATGCGTTCAT")
+print ans
