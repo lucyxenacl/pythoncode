@@ -1,7 +1,7 @@
 import BioinformaticsB
 genomic_dna = open("genomic_dna.txt").read()
 
-exon_locations = open("exons.txt").read()
+exon_locations = open("exons.txt")
 
 coding_sequence = ""
 

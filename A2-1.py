@@ -4,8 +4,8 @@ protein3 = "MSRSLLLRFLLFLLLLPPLP"
 
 list1=["L"]
 
-print protein1
-print protein1.count("M")
+print protein1.upper()
+print protein1.upper().count("M")
 
 S="LXLX"
 c=0
