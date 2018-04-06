@@ -1,3 +1,5 @@
+# programmed by Marisa Nickerson 
+# program finds fragment sites and returns where each site is
 import re
 DNA = open("dna.txt", "r")
 for line in DNA:
